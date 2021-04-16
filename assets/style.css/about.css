@@ -3,14 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
+body{
     background-image:url(../imaages/cover.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
-} */
-
-
+}
 button {
     appearance: auto;
     -webkit-writing-mode: horizontal-tb !important;
@@ -35,23 +33,6 @@ button {
     /* border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); */
     /* border-image: initial; */
 }
-
-p {
-
-    /* Inspect styling */
-        /* display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px; */
-
-        /* my styling */
-    /* text-align: center;
-    font-size: large;
-    font-style: italic; */
-}
-
-
 nav img{
     float: left;
     width: 15%;
