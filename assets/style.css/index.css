@@ -93,13 +93,13 @@ nav{
     color: #fff;
 }
 
-footer{
+#footerContainer.footer{
     background: #303036;
     color: #d3d3d3;
     height: 400px;
     position: relative;
 }
-footer .footer{
+ .footer .footer-content{
     background: #343a40;
     color: #686868;
     height: 50px;
