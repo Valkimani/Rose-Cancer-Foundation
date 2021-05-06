@@ -9,6 +9,21 @@
     background-position: center;
     height: 100vh;
 } */
+.toggle-button-nav {
+    padding: 0 14px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: auto;
+    height: 30px;
+    line-height: 24px;
+    text-decoration: none;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c,#ffac33);
+    border: 3px solid #ecc282;
+    color: #0a0a23;
+   
+}
 
 
 button {
@@ -50,7 +65,17 @@ p {
     font-size: large;
     font-style: italic; */
 }
+ .socialMedia-container {
+    padding: 20px 0 0;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
 
 nav img{
     float: left;
