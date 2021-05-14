@@ -9,6 +9,8 @@ body{
     background-size: cover;
     background-position: center;
     position:relative; 
+    padding-bottom: 58px;
+    min-height: 100vh;
   
    
 } 
@@ -20,7 +22,10 @@ height: 360px;
 object-fit: contain;
 } */
 
-
+#main-container {
+    min-height: 100%;
+    position: relative;
+}
 .toggle-button-nav {
     padding: 0 14px;
     outline: none;
@@ -140,6 +145,15 @@ nav{
     color: #fff;
 }
 
+.globalFooter-wrapper{
+text-align: center;
+background-color: #333;
+color: white;
+padding: 20px;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
 #footerContainer.footer{
     background: #303036;
     color: #d3d3d3;
