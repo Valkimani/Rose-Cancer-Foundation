@@ -10,9 +10,7 @@ body{
     background-position: center;
     position:relative; 
     padding-bottom: 58px;
-    min-height: 100vh;
-  
-   
+    min-height: 100vh; 
 } 
 /* .carousel{
     height: 360px;
@@ -26,6 +24,7 @@ object-fit: contain;
     min-height: 100%;
     position: relative;
 }
+
 .toggle-button-nav {
     padding: 0 14px;
     outline: none;
@@ -131,6 +130,12 @@ nav img{
     float: right;
     margin: 20px;
     padding-top: 25px;
+      overflow: hidden;
+}
+
+
+.header-content nav .icon{
+    display: none;
 }
 nav{
     position: relative;
@@ -141,11 +146,11 @@ nav{
     width: calc(100% - 80px); 
 }
 #nav-mobile li a:hover{
-    background: peach;
+    background: black;
     color: #fff;
 }
-
-.globalFooter{
+/* 
+.globalFooter {
 
 background-color: #303036;
 color: white;
@@ -153,17 +158,70 @@ padding: 20px;
 position: absolute;
 bottom: 0;
 width: 100%;
+display: flex;
+margin: auto;
+flex-wrap: wrap;
+} */
+ 
+/* new footer */
+.footer{
+background-color: #303036;
+color: white;
+padding: 25px;
+position: absolute;
+bottom: 0;
+width: 100%;
+display: flex;
+margin: auto;
+flex-wrap: wrap;
+
 }
 
-.globalFooter .globalFooter-content .footerSection{
+.footer ul{
+    list-style: none;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .footer-col{
+    width: 25%;
+    padding: 0 25px;
+}
+/* end new footer */
+
+/* .footerSection-links ul{
+    list-style: none;
+} */
+/* 
+.globalFooter .globalFooterContent .footerSection{
     flex: 1;
     padding: 25px;
     border: 1px solid white;
-}
+} */
 
-.footerSection-about a img {
+
+/* .footerSection-about a img {
     height: 100px;
     width: 120px;
+} */
+
+.footer-col a img{
+     height: 100px;
+    width: 120px;
+}
+
+.footer-bottom{
+    background: #303036;
+color: white;
+height: 50px;
+width: 100%;
+text-align: center;
+bottom: 0px;
+left: 0px;
+flex-direction: column;
 }
 /* delete */
 /* .globalFooter-section{
@@ -176,7 +234,7 @@ bottom: 0;
 } */
 
 /* Bottom footer styling */
-.globalFooter .footer-bottom{
+/* .globalFooter .footer-bottom{
    background: #343a40;
 color: #686868;
 height: 50px;
@@ -186,7 +244,7 @@ bottom: 0px;
 left: 0px;
 padding-top: 20px;
 
-}
+} */
 
 /* #footerContainer.footer{
     background: #303036;
