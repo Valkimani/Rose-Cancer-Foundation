@@ -147,7 +147,7 @@ nav{
 
 .globalFooter{
 
-background-color: #343a40;
+background-color: #303036;
 color: white;
 padding: 20px;
 position: absolute;
@@ -155,10 +155,15 @@ bottom: 0;
 width: 100%;
 }
 
+.globalFooter .globalFooter-content .footerSection{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+}
 
-.globalFooter .globalFooter-section{
-
-
+.footerSection-about a img {
+    height: 100px;
+    width: 120px;
 }
 /* delete */
 /* .globalFooter-section{
@@ -172,7 +177,7 @@ bottom: 0;
 
 /* Bottom footer styling */
 .globalFooter .footer-bottom{
-   background: #343a34;
+   background: #343a40;
 color: #686868;
 height: 50px;
 width: 100%;
