@@ -1,7 +1,20 @@
+/* Toggle between adding and removing the "responsive" class to topNav when the user clicks on the icon */
+// function myFunction() {
+//       var x = document.getElementById("toNav");
+//       if (x.className === "toNav") {
+//        x.className += " responsive";
+//       } else {
+//        x.className = "toNav";
+//      }
+//     }
+
+
+
 // added an immediate executing function
 (function paymentMethod (){
     // Takes in publishable key
     var stripe = Stripe('pk_test_51Iq55tDcRN3IA7cEHllozwTPRlBlFDC1c9ipzOew8gHLKSBRCDxoT4lhhm3ndTJOK1zYaoZFgN5PFAHVuJvL6JSJ00siu7wyls');
+    var elements = stripe.elements();
     
     var checkoutButton =  document.getElementById('nav-button');
     var errorMessage = document.getElementById('error-message');
