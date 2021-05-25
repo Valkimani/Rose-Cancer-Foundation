@@ -252,6 +252,20 @@ left: 0px;
 flex-direction: column;
 }
 
+
+/* responsiveness */
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+       
+    }
+}
 /* Nav bar media queries */
 /* @media screen and (max-width: 600px) {
     .topNav a:not(:first-child) {display: none;}
