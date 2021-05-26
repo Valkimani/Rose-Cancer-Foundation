@@ -25,22 +25,6 @@ body{
     width: 100%;
 }
 
-/* .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-} */
-/* .carousel{
-    height: 200px;
-} */
-/* .carousel-inner .carousel-iƒtem :active {
-height: 360px;
-object-fit: contain;
-} */ 
-/* about us card */
-
 .content{
     width: 120%;
     display: inline-block;
@@ -76,42 +60,9 @@ object-fit: contain;
     height: 30px;
     line-height: 24px;
     text-decoration: none;
-    /* background-color: #feac32; */
-    /* background-image: linear-gradient(#fecc4c,#ffac33); */
-    /* border: 3px solid #ecc282; */
-    /* color: #363675; */
    
 }
 
-
-/* button {
-    appearance: auto;
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    /* text-shadow: none; */
-    /* display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: -internal-light-dark(rgb(238, 170, 107), rgb(59, 59, 59));
-    box-sizing: border-box;
-    margin: 0em;
-    font: 800 13.3333px Arial;
-    padding: 12px 18px; */
-    /* border-width: 15px; */
-    /* border-style: outset; */
-    /* border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133)); */
-    /* border-image: initial; */
-
-
-/* .btn btn-primary{
-    background-color: orange;
-} */
 nav img{
     float: left;
     width: 16%;
@@ -206,25 +157,6 @@ footer .footerContainer {
     z-index: 1;
    
 }
-/* footer */
-/* .footer{
-bottom: 0px;
-position: absolute;
-height: 50px;
-left: 0px;
-right: 0px;
-margin-bottom: 0px;
-background-color: #303036;
-color: white;
-width: 100%;
-padding: 25px;
-
-
-} */
-/* 
-/* display: flex; */
-/* flex-wrap: wrap; */
-
 
 .footer .row {
     display: flex;
@@ -280,9 +212,6 @@ padding: 25px;
     height: 80%;
     
 }
-/* .footer-col ul li{
-    margin-bottom: 10px;
-} */
 
 .footer-col ul a li{
     color: #ffffff;
