@@ -149,8 +149,10 @@ nav img{
     margin: 0.25rem;
     cursor: pointer;
     padding: 0.25rem 0.5rem;
-    line-height: 1.2;
+    line-height: 1.2¡;
+  box-shadow: white;
 }
+
 .header-content{
    display: flex;
     float: right;
