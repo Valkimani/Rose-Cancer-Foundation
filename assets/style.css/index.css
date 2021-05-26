@@ -59,7 +59,7 @@ object-fit: contain;
 }
 /* resizing carousel images */
 .carousel-item img{
-    max-height: 600px;
+    max-height: 650px;
 }
 
 #main-container {
@@ -76,10 +76,10 @@ object-fit: contain;
     height: 30px;
     line-height: 24px;
     text-decoration: none;
-    background-color: #feac32;
-    background-image: linear-gradient(#fecc4c,#ffac33);
-    border: 3px solid #ecc282;
-    color: #363675;
+    /* background-color: #feac32; */
+    /* background-image: linear-gradient(#fecc4c,#ffac33); */
+    /* border: 3px solid #ecc282; */
+    /* color: #363675; */
    
 }
 
@@ -109,9 +109,9 @@ object-fit: contain;
     /* border-image: initial; */
 
 
-.btn btn-primary{
+/* .btn btn-primary{
     background-color: orange;
-}
+} */
 nav img{
     float: left;
     width: 16%;
@@ -143,8 +143,8 @@ nav img{
 #nav-mobile li .donate{
     border: 0;
     border-radius: 0.20rem;
-    background: #1e88e5;
-    color: white;
+    background: #c4ee07;
+    color: rgb(119, 116, 116);
     margin: 0.25rem;
     cursor: pointer;
     padding: 0.25rem 0.5rem;
@@ -174,8 +174,8 @@ nav{
     width: calc(100% - 50px); 
 }
 #nav-mobile li a:hover{
-    background: black;
-    color: #fff;
+    background: white;
+    color: rgb(43, 52, 102);
 }
 /* about styling */
 
