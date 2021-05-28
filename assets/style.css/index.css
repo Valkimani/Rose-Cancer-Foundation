@@ -289,3 +289,18 @@ flex-direction: column;
             
     }
     }
+
+    @media(max-width: 767px){
+        nav img{
+            width: 50%;
+                margin-bottom: 30px;
+        }
+        }
+        
+        @media(max-width: 574px){
+            nav img{
+                width: 100%;
+                    
+            }
+            }
+    
