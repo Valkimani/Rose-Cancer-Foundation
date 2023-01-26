@@ -1,125 +1,157 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rose Cancer Foundation</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       
-        <!-- added font awesome link -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="https://js.stripe.com/v2/"></script>
-<script src="https://js.stripe.com/v3/"></script>
-<link rel="stylesheet" href="assets/style.css/index.css">
-    </head>
-    <body>
-        <div class="wrapper-head">
-            <div class="header">
-                <div class="header-content">
-                    <nav>
-                    <div class="logo"></div>
-                        <a href="index.html">
-                            <img src="./assets/images/headerLogo.png" alt="Rose">
-                        </a>
-                        <ul id="nav-mobile">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">Who we are</a></li>
-                             <li><a href="projects.html">What we do</a></li>
-                            <li><a href="futureProjects.html">Projects</a></li>
-                            <li><a href="https://www.paypal.com/donate?hosted_button_id=S3WGTP6TYV9WS" class="donate">Donate</a></li>
-                          </ul>
-                        </nav>
-                       
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rose Cancer Foundation</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-                </div>
-            </div>
+    <!-- added font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://js.stripe.com/v2/"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <link rel="stylesheet" href="assets/style.css/index.css" />
+  </head>
+  <body>
+    <div class="wrapper-head">
+      <div class="header">
+        <div class="header-content">
+          <nav>
+            <div class="logo"></div>
+            <a href="index.html">
+              <img src="./assets/images/headerLogo.png" alt="Rose" />
+            </a>
+            <ul id="nav-mobile">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">Who we are</a></li>
+              <li><a href="projects.html">What we do</a></li>
+              <!-- <li><a href="futureProjects.html">Projects</a></li> -->
+              <li>
+                <a
+                  href="https://www.paypal.com/donate?hosted_button_id=S3WGTP6TYV9WS"
+                  class="donate"
+                  >Donate</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
+    </div>
 
-
- <div id= "main-container" class="container">
-     <div class="row">
-     <div class="col-sm-12">
-        <div id="carousel" class="carousel slide" data-ride="carousel">
+    <div id="main-container" class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/images/symptoms.png" class="d-block w-100" src="https://www.cancer.org/content/dam/CRC/PDF/Public/8858.00.pdf" target="_blank" alt="..." >
+                <img
+                  src="./assets/images/symptoms.png"
+                  class="d-block w-100"
+                  src="https://www.cancer.org/content/dam/CRC/PDF/Public/8858.00.pdf"
+                  target="_blank"
+                  alt="..."
+                />
               </div>
               <div class="carousel-item">
-                <img src="./assets/images/femaleOrgan.png" class="d-block w-100" src="https://www.cancer.gov/types/cervical/patient/cervical-treatment-pdq" target="_blank"  alt="...">
+                <img
+                  src="./assets/images/femaleOrgan.png"
+                  class="d-block w-100"
+                  src="https://www.cancer.gov/types/cervical/patient/cervical-treatment-pdq"
+                  target="_blank"
+                  alt="..."
+                />
               </div>
               <div class="carousel-item">
-                <img src="./assets/images/TumorSizes.png" class="d-block w-100" src="https://www.cdc.gov/cancer/gynecologic/basic_info/symptoms.htm" target="_blank"  alt="...">
-              </div> 
+                <img
+                  src="./assets/images/TumorSizes.png"
+                  class="d-block w-100"
+                  src="https://www.cdc.gov/cancer/gynecologic/basic_info/symptoms.htm"
+                  target="_blank"
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
- 
- </div>
-</div>
-  </div>
-        
-             <!--footer -->
-           
-            <footer class="footer">
-    <div class="footerContainer">
-                <div class="row">
-                    <div class="footer-col">
-                        <p>
-                             <a href="index.html">
-                            <img src="./assets/images/logo.png" alt="Rose">
-                        </a>
-                        </p>
-                       
-                           <p>Rose Cancer Foundation is a 501(c)(3) not-for-profit organization</p>
-                       
-                    </div>
-                    <div class="footer-col">
-                        <h4>Links</h4>
-                        <div class="links">
-                        <ul>
-                            <!-- <a href="index.html"><li>Home</li></a>
-                            <a href="about.html"><li>Who we are</li></a>
-                            <a href="projects.html"><li>What we do </li></a>
-                            <a href="futureProjects.html"><li>Projects</li></a> -->
-                            <a href="#"><li>Terms and Conditions</li></a>
-                            <a href="#"><li>Privacy Policy</li></a>
-                        </ul>
-                        </div>
-                    </div>
-                    <div class="footer-col">
-                        <h4>Social Media</h4>
-                        <div class="socials">
-                         <a href="#"><span class="fab fa-facebook-f"></span></a>
-                         <a href="#"><span class="fab  fa-instagram"></span></a>
-  
-                    </div>
-                </div>
-        
-                <div class="footer-col">
-                    <h4>Email Us</h4>    
-                    <div class="contact">
-                       <span><i class="fas fa-envelope"></i>&nbsp;</span>
-                       <p class="mail" href="mailto:rosecancerfoundation@gmail.com"> rosecancerfoundation@gmail.com</p>
-                   </div>
-                </div>
-          
-            <div class="footer-bottom">
+        </div>
+      </div>
+    </div>
+
+    <!--footer -->
+
+    <footer class="footer">
+    
+        <div class="row">
+            <div class="footer-col">
                 <p>
-                    <span class="credit"> Copyright &copy; <script>document.write(new Date().getFullYear());</script> Valerose designs.</span>
-                            <span>All rights reserved</span>
-                    
+                  <a href="index.html">
+                    <img src="./assets/images/logo.png" alt="Rose">
+                </a>
                 </p>
+
+                   <p>Rose Cancer Foundation is a 501(c)(3) not-for-profit organization</p>
+               
+            </div>
+            <div class="footer-col">
+                <h4>Links</h4>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>Who we are</li></a>
+                    <a href="projects.html"><li>What we do </li></a>
+                    <a href="futureProjects.html"><li>Projects</li></a>
+                    <a href="#"><li>Terms and Conditions</li></a>
+                    <a href="#"><li>Privacy Policy</li></a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Social Media</h4>
+                <div class="socials">
+                 <a href="#"><span class="fab fa-facebook-f"></span></a>
+                 <a href="#"><span class="fab  fa-instagram"></span></a>
+         
             </div>
         </div>
+
+        <div class="footer-col">
+            <h5>Email Us</h5>    
+            <div class="contact">
+              <p class="mail" href="mailto:rosecancerfoundation@gmail.com"> rosecancerfoundation@gmail.com</p>
+           </div>
+        </div>
+  
+    <div class="footer-bottom">
+        <p>
+            <span class="credit"> Copyright &copy; <script>document.write(new Date().getFullYear());</script> Valerose designs.</span>
+                    <span>All rights reserved</span>
+            
+        </p>
     </div>
-        </footer>
-     
-                        
-    </body>
+
+</footer>
+  </body>
 </html>
-                

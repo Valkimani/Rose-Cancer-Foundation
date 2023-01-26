@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-image:url(../imaages/cover.png);
+    background-image:url(../images/cover.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 button {
     appearance: auto;
-    -webkit-writing-mode: horizontal-tb !important;
+    /* -webkit-writing-mode: horizontal-tb !important; */
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
@@ -26,7 +26,7 @@ button {
     background-color: -internal-light-dark(rgb(238, 170, 107), rgb(59, 59, 59));
     box-sizing: border-box;
     margin: 0em;
-    font: 800 13.3333px Arial;
+    font: 600 13.3333px Arial;
     padding: 12px 18px;
     /* border-width: 15px; */
     /* border-style: outset; */
@@ -35,17 +35,17 @@ button {
 }
 nav img{
     float: left;
-    width: 15%;
+    width: 150px;
     padding-left: -2%;
-    padding-top: -2%;
-    padding-bottom: -2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 #nav-mobile li a{
     text-decoration: none;
     letter-spacing: 1px;
     display: block;
     padding: 0 25px;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 60px;
     position: relative;
     font-weight: bold;
