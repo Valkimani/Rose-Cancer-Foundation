@@ -21,7 +21,10 @@ body{
     padding-bottom: 0px;
     min-height: 100vh; 
     
+
 } 
+
+
 .containerProjects img{
 /* size: 500px; */
 /* max-height: 650px; */
@@ -47,19 +50,31 @@ vertical-align: middle;
     font-family: 'Poppins', sans-serif;
 }
 
+.-container {
+    min-height: 50%; 
+  
+    }  
 
-.carousel-inner,.carousel-inner img{
+ /* .c-item {
+   height: 350px;
+} */
+.c-image {
+    height: 55%;
+    object-fit: cover;
+} 
+
+/* .carousel-inner,.carousel-inner img{
     height: 75%;
-}
+} */
 /* resizing carousel images */
-.carousel-item img{
+/* .carousel-item img{
     max-height: 650px;
-}
+    object-fit: cover;
+} 
 
-#main-container {
-    min-height: 80%;
-    /* position: relative; */
-}
+ #main-container {
+    min-height: 80%; 
+    }  */
 
 .toggle-button-nav {
     padding: 0 10px;
@@ -167,7 +182,7 @@ nav{
 
 footer .footerContainer {
     position: absolute;
-    width: 100%;
+    width: 65%;
     margin-bottom: auto;
     z-index: 1;
    
@@ -189,7 +204,7 @@ footer .footerContainer {
  .footer-col{
     width: 25%;
     padding: 0 10px;
-    font-size: large;
+    font-size: 15px;
     text-transform: capitalize;
     margin-bottom: 15px;
     color: #bbbbbb;
@@ -198,12 +213,14 @@ footer .footerContainer {
 
 .footer ul{
     list-style: none;
+    text-decoration: none;
 }
 
 
 .footer-col h4{
     font-size: 15px;
     color: #ffffff;
+    
 }
 
 .footer-col h4::before{

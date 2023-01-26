@@ -1,6 +1,8 @@
 # Rose-Cancer-Foundation
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. This is a mobile-first application 
+
+
+<!-- Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. This is a mobile-first application 
 
 
 ## Directions
@@ -39,4 +41,4 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
 
-* All links must work.
+* All links must work. -->
