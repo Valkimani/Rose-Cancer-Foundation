@@ -1,5 +1,15 @@
 # Rose-Cancer-Foundation
 
+The RCF demonstrates the use of Bootstrap CSS Framework to create a mobile responsive website.
+
+Using Bootstrap, the following items were added to the website:
+
+    A navbar
+
+    A responsive layout
+
+    Responsive images
+
 
 
 <!-- Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. This is a mobile-first application 
